@@ -1,0 +1,3 @@
+alt fleche 
+ctrl d
+Ctrl+K+F pour indentation

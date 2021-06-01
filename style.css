@@ -6,5 +6,42 @@
          url('Raleway.svg') format('svg');
 }
 * {
-    font-family : Raleway
+    font-family : Raleway;
+    margin: 10px;
     }
+    footer
+{
+    background-color: #F2F2F2;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+}
+.menu ul li a {
+    padding: 35px;
+    text-decoration:none
+}
+.menu {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+.ryu {
+    color: black;
+}
+.ken {
+color: #0065FC;
+}
+.bison {
+    color: #0065FC;
+}
+.ken:hover
+{
+    border-top: 3px solid #0065FC;
+}

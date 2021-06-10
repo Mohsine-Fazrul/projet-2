@@ -5,14 +5,34 @@
          url('Raleway.ttf') format('truetype'),
          url('Raleway.svg') format('svg');
 }
-* {
-    font-family : Raleway;
-    margin: 10px;
+body {
+    font-family : "Raleway", "sans-serif";
+    margin: 0;   
+    max-width: 1440px;
     }
+}
 footer {
     background-color: #F2F2F2;
-    padding: 10px;
-    margin: 10px 10px;
+    width: 16px;
+}
+.footerbloc {
+    display: flex;
+    max-width: 16px;
+    width: 1440px;
+    margin: auto;
+    padding: 0 32px;
+    box-sizing: border-box;
+}
+.footercolonne {
+    width: 4.8px;
+    padding: 32px 32px;
+}
+.footerlink {
+    display: block;
+    margin: 16px 0;
+}
+.footerlink:hover {
+    text-decoration: underline;
 }
 .menu {
     display: flex;
@@ -25,7 +45,7 @@ footer {
     list-style-type:none;
 }
 .menu ul li a {
-    padding: 35px;
+    padding: 23px;
     text-decoration:none
 }
 .menu  {
@@ -33,16 +53,16 @@ footer {
     top: 0px;
     right: 10px;
 }
-.ryu {
+.black {
     color: black;
     text-shadow: 0px 0px 1px black;
 }
-.ken {
+.selected {
     color: #0065FC;
     border-top: 3px solid #0065FC;
     text-shadow: 0px 0px 1px #0065fc
 }
-.bison {
+.bold {
     color: #0065fc;
     font-weight: bold;
     text-shadow: 0px 0px 1px #0065fc ;
@@ -82,68 +102,60 @@ border: 1px solid #F2F2F2;
     padding: 10px;
     margin: 10px 10px;
 }
-input {
-padding: 10px;
-margin: 10px 10px;
-}
 input[type=text] {
     border: 1px solid #F2F2F2;
-    border-radius: 10px / 10px;
+    border-right: none;
+    border-left: none;
     font-weight: bold;
-    text-shadow: 0px 0px 1px black;
+    padding: 13px 0 13px 24px;
+    box-sizing: border-box;
+    width: 224px;
+    font-size: 16px;
 }
 input[type=submit] {
-    border: 1px solid #0065fc;
-    border-radius: 10px;
     background-color:#0065fc;
     color: white;
-  
-    text-shadow: 0px 0px 1px white;
+  border-radius: 0 16px 16px 0;
+  padding: 13px 0 13px 24px;
+  border: 1px solid #0065fc;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
 }
 .localisation {
-    border: 1px solid #F2F2F2;
-    border-radius: 10px;
+    border-radius: 16px 0 0 16px;
     background-color:#F2F2F2;
-    padding: 10px;
-    margin: 10px 10px;
+    padding: 16px 20px;
+    text-align: center;
+    margin-left: 1.6px;
 }
 .filtre {
     font-weight: bold;
     text-shadow: 0px 0px 1px black;
 }
-.billet {
+.filtres {
     background-color:#DEEBFF;
     color: #0065fc;
     padding: 10px;
     margin: 10px 10px;
     border-radius: 20px;
-}
-.famille {
-    background-color:#DEEBFF;
-    color: #0065fc;
-    padding: 10px;
-    margin: 10px 10px;
-    border-radius: 20px;
-}
-.amour {
-    background-color:#DEEBFF;
-    color: #0065fc;
-    padding: 10px;
-    margin: 10px 10px;
-    border-radius: 20px;
-}
-.animal {
-    background-color:#DEEBFF;
-    color: #0065fc;
-    padding: 10px;
-    margin: 10px 10px;
-    border-radius: 20px;
+    text-shadow: 0px 0px 0px black;
 }
 .info {
-    background-color:#0065fc;
-    color:white;
-    padding: 1px;
+    color: #0065fc;
+    padding: 10px;
     margin: 1px 1px;
-    border-radius: 10px;
+    border-radius: 100%;
     border: 1px solid #F2F2F2;
+    align-items: center;
+    justify-content: center;
+}
+.accommodation {
+
+}
+.blue {
+    color:#0065fc;
+}
+.grey {
+color: #F2F2F2;
 }

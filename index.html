@@ -5,10 +5,14 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="https://kit.fontawesome.com/9e542cea03.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <title>Reservia</title>
 </head>
     <body>
+        <div class="MainContainer">
     <header>
         <p>
             <img src="logo/reservia.png" alt="Reservia"/>
@@ -30,10 +34,10 @@
             <input type="submit" value="Rechercher">
             <div class="filtre">
                 Filtres
-                <i class="filtres fas fa-money-bill-wave"></i> Économique
-                <i class="filtres fas fa-child"></i> Familial
-                <i class="filtres fas fa-heart"></i> Romantique
-                <i class="filtres fas fa-dog"></i> Animaux autorisés
+                <i class="filtres fas fa-money-bill-wave"></i>Économique
+                <i class="filtres fas fa-child"></i>Familial
+                <i class="filtres fas fa-heart"></i>Romantique
+                <i class="filtres fas fa-dog"></i>Animaux autorisés
             </div>
         </form>
         <p><i class="info fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
@@ -97,6 +101,7 @@
             </figcaption>
         </figure>
         <p class="accommodationMainDesc">Nuit à partir de 76<strong class="accommodationMainDescPrice">€</strong></p>
+        <div class="accommodationMainStar">
         <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
         <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
         <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
@@ -105,53 +110,135 @@
         </div>
         </a>
 </article>
-            <img src="hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" />
-            Hôtel de la mer
-            Nuit à partir de 46€
-            <i class="blue fas fa-star"></i><i class="blue fas fa-star"></i><i class="blue fas fa-star"></i><i class="grey fas fa-star"></i><i class="grey fas fa-star"></i>
-        </p>
-        <p>
-            <img src="hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" />
-            Auberge Le Panier
-            Nuit à partir de 23€
-            <i class="blue fas fa-star"></i><i class="blue fas fa-star"></i><i class="blue fas fa-star"></i><i class="blue fas fa-star"></i><i class="grey fas fa-star"></i>
-        </p>
-        <p>
-            <img src="hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina" />
-            Hôtel chez Amina
-            Nuit à partir de 96€
-            <i class="blue fas fa-star"></i><i class="blue fas fa-star"></i><i class="blue fas fa-star"></i><i
-                class="blue fas fa-star"></i><i class="blue fas fa-star"></i>
+<article class="accommodationMainArticle">
+    <a href="#">
+    <figure class="accommodationMainFigure">
+            <img 
+            class="accommodationMainFigureImg"
+            src="hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" 
+            alt="Chambre avec lit deux places et une fenêtre" />
+            <figcaption class="accommodationFigureCaption">
+                <h3 class="accommodationMainFigureCaptionTitle">Hôtel de la mer</h3>
+        </figcaption>
+    </figure>
+        <p class="accommodationMainDesc">Nuit à partir de 46<strong class="accommodationMainDescPrice">€</strong></p>
+        <div class="accommodationMainStar">
+        <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+        <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+        <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+        <i class="grey fas fa-star accommodationMainStarIcon" data-active="false"></i>
+        <i class="grey fas fa-star accommodationMainStarIcon" data-active="false"></i>
+</div>
+</a>
+</article>
+<article class="accommodationMainArticle">
+    <a href="#">
+    <figure class="accommodationMainFigure">
+            <img 
+            class="accommodationMainFigureImg"
+            src="hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" 
+            alt="Chambre avec deux lits superposé" />
+         <figcaption class="accommodationFigureCaption">
+                <h3 class="accommodationMainFigureCaptionTitle">Auberge Le Panier</h3>
+            </figcaption>
+        </figure>
+        <p class="accommodationMainDesc">Nuit à partir de <strong class="accommodationMainDescPrice">23€</strong></p>
+        <div class="accommodationMainStar">
+        <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+        <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+        <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+        <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+        <i class="grey fas fa-star accommodationMainStarIcon" data-active="false"></i>
+        </div>
+        </a>
+</article>
+<article class="accommodationMainArticle">
+    <a href="#">
+    <figure class="accommodationMainFigure">
+            <img 
+            class="accommodationMainFigureImg"
+            src="hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" 
+            alt="Chambre avec deux lits et une fenêtre" />
+            <h3 class="accommodationMainFigureCaptionTitle">Hôtel chez Amina</h3>
+        </figcaption>
+    </figure>
+    <p class="accommodationMainDesc">Nuit à partir de 96 <strong class="accommodationMainDescPrice">€</strong></p>
+    <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+    <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+    <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+    <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+    <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+</div>
+</a>
+</article>
+            <a class="accomodationMainViewMore" href="#">Afficher plus</a>
 
-                <a class="more" href="#">Afficher plus</a>
-        </p>
-    
 </div>
 
-        <aside>
-        <h3>Les plus populaires
-            <i class="fas fa-chart-line"></i>
-        </h3>
-        <p>
-            <img src="hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin" />
-            Hôtel Le soleil du matin
-            Nuit à partir de 128€
-            <i class="blue fas fa-star"></i><i class="blue fas fa-star"></i><i class="blue fas fa-star"></i><i
-                class="blue fas fa-star"></i><i class="blue fas fa-star"></i>
-        </p>
-        <p>
-            <img src="hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-                alt="Au coeur de l'eau Chambres d'hôtes" />
-            Au coeur de l'eau Chambres d'hôtes
-            Nuit à partir de 71€
-            <i class="blue fas fa-star"></i><i class="blue fas fa-star"></i><i class="blue fas fa-star"></i><i class="blue fas fa-star"></i><i class="grey fas fa-star"></i>
-        </p>
-        <p>
-            <img src="hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc" />
-            Hôtel Tout bleu et Blanc
-            Nuit à partir de 68€
-            <i class="blue fas fa-star"></i><i class="blue fas fa-star"></i><i class="blue fas fa-star"></i><i class="blue fas fa-star"></i><i class="grey fas fa-star"></i>
-        
+        <aside class="accommodationPopular">
+        <h2 class="accommodationPopularTitle">Les plus populaires <i class="fas fa-chart-line"></i></h2>
+        <article class="accommodationMainArticle accommodationMainPopular">
+            <a class="accommodationPopularContent" href="#">
+                <div class="accommodationPopularContentImg">
+            <img 
+            class="accommodationPopularImg"
+            src="hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" 
+            alt="Chambre avec un lit deux places et une fenêtre" />
+        </div>
+        <div class="accommodationPopularWrapContent">
+            <h3 class="accommodationMainFigureCaptionTitle">Hôtel Le soleil du matin</h3>
+            <p class="accommodationMainDesc">Nuit à partir de 128 <strong class="accommodationMainDescPrice">€</strong></p>
+            <div class="accommodationPopularWrapContentWhitespace"></div>
+            <div class="accommodationMainCardGrade"></div>
+            <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+            <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+            <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+            <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+            <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+        </div>
+    </div>
+  </a>
+        </article>
+        <article class="accommodationMainArticle accommodationMainPopular">
+            <a class="accommodationPopularContent" href="#">
+                <div class="accommodationPopularContentImg">
+            <img 
+            class="accommodationPopularImg"
+            src="hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                alt="Chambre avec un lit deux places et une fenêtre" />
+            </div>
+            <div class="accommodationPopularWrapContent">
+                <h3 class="accommodationMainFigureCaptionTitle">Au coeur de l'eau Chambres d'hôtes</h3>
+                <p class="accommodationMainDesc">Nuit à partir de 71 <strong class="accommodationMainDescPrice">€</strong></p>
+                <div class="accommodationPopularWrapContentWhitespace"></div>
+                <div class="accommodationMainCardGrade"></div>
+                <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+                <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+                <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+                <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+                <i class="grey fas fa-star accommodationMainStarIcon" data-active="false"></i>
+            </div>
+        </div>
+      </a>
+            </article>
+            <article class="accommodationMainArticle accommodationMainPopular">
+                <a class="accommodationPopularContent" href="#">
+                    <div class="accommodationPopularContentImg">
+                <img 
+                class="accommodationPopularImg"
+                src="hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" 
+                alt="Chambre avec un lit deux places" />
+        </div>
+        <div class="accommodationPopularWrapContent">
+            <h3 class="accommodationMainFigureCaptionTitle">Hôtel Tout bleu et Blanc</h3>
+            <p class="accommodationMainDesc"></p>Nuit à partir de 68 <strong class="accommodationMainDescPrice">€</strong></p>
+            <div class="accommodationPopularWrapContentWhitespace"></div>
+            <div class="accommodationMainCardGrade"></div>
+            <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+            <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+            <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+            <i class="blue fas fa-star accommodationMainStarIcon" data-active="true"></i>
+            <i class="grey fas fa-star accommodationMainStarIcon" data-active="false"></i>
     </div>
 </div>
     </a>
@@ -183,28 +270,29 @@
         <img src="activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp" />
         Parc Longchamp
     </p>
+</div>
     <footer>
         <div class="footerbloc">
             <div class="footercolonne">
-        <h5 class="footercolonnetitre">A propos</h5>
+                <h5 class="footercolonnetitre">A propos</h5>
 
-        <a href="#" class="footerlink">Fonctionnement du site</a>
-        <a href="#" class="footerlink">Conditions générales de vente</a>
-        <a href="#" class="footerlink">Données et confidentialité</a>
-    </div>
-        <div class="footercolonne">
-        <h5 class="footercolonnetitre"></h5>Nos hébergements</h5>
+                <a href="#" class="footerlink">Fonctionnement du site</a>
+                <a href="#" class="footerlink">Conditions générales de vente</a>
+                <a href="#" class="footerlink">Données et confidentialité</a>
+            </div>
+            <div class="footercolonne">
+                <h5 class="footercolonnetitre">Nos hébergements</h5>
     
-        <a href="#" class="footerlink">Charte qualité</a>
-        <a href="#" class="footerlink">Soumettre votre hôtel</a>
-    </div>
-        <div class="footercolonne">
-        <h5 class="footercolonnetitre"></h5>Assistance</h5>
+                <a href="#" class="footerlink">Charte qualité</a>
+                <a href="#" class="footerlink">Soumettre votre hôtel</a>
+            </div>
+            <div class="footercolonne">
+                <h5 class="footercolonnetitre">Assistance</h5>
 
-        <a href="#" class="footerlink">Centre d'aide</a>
-        <a href="#" class="footerlink">Nous contacter</a>
-    </div>
-</div>
+                <a href="#" class="footerlink">Centre d'aide</a>
+                <a href="#" class="footerlink">Nous contacter</a>
+            </div>
+        </div>
     </footer>
 </body>
 

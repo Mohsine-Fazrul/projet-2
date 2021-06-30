@@ -14,29 +14,35 @@ a {
     color: inherit;
     text-decoration: none;
 }
+ul      {
+    list-style-type: none;
+    }
 .MainContainer {
     max-width: 1440px;
 }
-footer {
+footer  {
     background-color: #F2F2F2;
+    margin-top: 30px;
+    padding: 0 100px 0 50px;
+    
+    }
+.footer {        
+    display : flex;
+    width: 72%;
+    height : 250px;
 }
-.footerbloc {
-    display: flex;
-    margin: auto;
-    padding: 0 32px;
-    box-sizing: border-box;
-}
-.footercolonne {
 
-    padding: 32px 32px;
-}
-.footerlink {
-    display: block;
-    margin: 16px 0;
-}
-.footerlink:hover {
-    text-decoration: underline;
-}
+.footerSection {        
+    display : flex;
+    }
+    
+.footerSection ul{        
+    padding :0;
+    }
+
+.footerSection ul li{        
+    padding-top: 1rem;
+    }
 .menu {
     list-style: none;
     display: flex;
@@ -72,34 +78,7 @@ header img {
     height: 50px;
     width: 100px;
 }
-h1 {
-font-weight: bold;
 
-}
-h2 {
-    font-weight: bold;
-border: 1px solid #F2F2F2;
-    border-radius: 10px;
-    background-color:#F2F2F2;
-    padding: 10px;
-    margin: 10px 10px;
-}
-h3 {
-    font-weight: bold;
-border: 1px solid #F2F2F2;
-    border-radius: 10px;
-    background-color:#F2F2F2;
-    padding: 10px;
-    margin: 10px 10px;
-}
-h4 {
-    font-weight: bold;
-border: 1px solid #F2F2F2;
-    border-radius: 10px;
-    background-color:#F2F2F2;
-    padding: 10px;
-    margin: 10px 10px;
-}
 input[type=text] {
     border: 1px solid #F2F2F2;
     border-right: none;
@@ -164,7 +143,7 @@ color: #F2F2F2;
 .accommodationPopular, .accommodationMain {
     background-color: #F2F2F2;
     border-radius: 1.5rem;
-    padding: 2rem;
+    padding: 32px 560px 32px 32px;
 }
 .accommodationMain {
     display: grid;
@@ -223,7 +202,8 @@ color: #F2F2F2;
     font-weight: bold;
 }
 .accommodationPopular {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     row-gap: 2rem;
     align-items: start;
     grid-template-rows: auto repeat(3, 1fr);
@@ -242,7 +222,7 @@ color: #F2F2F2;
 .accommodationPopularContentImg {
     position: relative;
     min-height: 100%;
-    width: 33%;
+    width: 100%;
     min-width: 33%;
     max-width: 33%;
 }
@@ -254,12 +234,14 @@ color: #F2F2F2;
     object-fit: cover;
 }
 .accommodationPopularWrapContent {
-    display: flex;
-    flex-direction: column;
+padding-right: 50px;
+padding-left: 50px;
+height: 165px;
+width: 433px;
 }
 .accommodationPopularWrapContentWhitespace {
     flex: 1;
 }
 .accommodationPopularaccommodationMainArticle {
-    height: 8.75rem;
+      height: 8.75rem;
 }

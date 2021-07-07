@@ -315,7 +315,9 @@ body {
   .host_body_bloc_stars {
     color: #0065FC;
   }
-  
+  .gris {
+    color: #F2F2F2;
+  }
   .host_aside {
     display: flex;
     background-color: #F2F2F2;

@@ -127,6 +127,9 @@ body {
     border-bottom: #F2F2F2 1px solid;
     color: black;
   }
+  .search_search::placeholder {
+color: black;
+  }
   
   .search_button {
     background-color: #0065FC;
@@ -355,13 +358,7 @@ body {
   
   .host_aside_bloc:hover {
     transform: scale(1.015);
-  }
-  
-  a:link {
-    color: black;
-    text-decoration: none;
-  }
-  
+  } 
   .aside_link {
     display: flex;
     flex-direction: row;

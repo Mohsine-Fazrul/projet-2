@@ -75,6 +75,9 @@ body {
     border-top: 2px solid #0065FC;
     padding-top: 28px;
   }
+  .menu_head2 {
+    font-weight: normal;
+  }
   
   .colortext {
     color: #0065FC;
@@ -101,7 +104,9 @@ body {
     justify-content: space-between;
     flex-direction: column;
   }
-  
+  .search_title {
+    font-size: 24px;
+  }
   
   form {
     display: inline-flex;
@@ -125,20 +130,22 @@ body {
     border-top: #F2F2F2 1px solid;
     border-bottom: #F2F2F2 1px solid;
     color: black;
+    font-size: 16px;
   }
   .search_search::placeholder {
 color: black;
   }
   
   .search_button {
-    background-color: #0065FC;
+    background-color:#0065fc;
     color: white;
-    border-radius: 0 1rem 1rem 0;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    padding-left: 15px;
-    padding-right: 15px;
+  border-radius: 0 16px 16px 0;
+  padding: 13px 24px 13px 24px;
+  border: 1px solid #0065fc;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
   }
   
   .search_glass {
@@ -253,7 +260,6 @@ color: black;
   .host_body_square {
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 0 20px 20px 20px;
   
   }
@@ -337,7 +343,12 @@ color: black;
     height: 20px;
     margin-bottom: 0px;
   }
-  
+  .leftlogo {
+    width: 95%;
+  }
+  .float {
+    float: right;
+  }
   .host_aside_square {
     display: flex;
     align-items: flex-start;
